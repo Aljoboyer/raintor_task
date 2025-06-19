@@ -1,9 +1,9 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import Sender from "@/components/Sender";
+import Sender from "@/components/task2/Sender";
 
-const Receiver = dynamic(() => import("@/components/Receiver"), {
+const Receiver = dynamic(() => import("@/components/task2/Receiver"), {
   ssr: false,
 });
 

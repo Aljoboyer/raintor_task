@@ -2,12 +2,25 @@
 
 @theme {
   /* ----------COLORS------------ */
-  --color-basecolor: #017163;
+  --color-main: #C5FF41;
 
   /* ----------TEXT SIZE---------- */
-  --text-xxl_title: 60px;
+  --text-xxl_title: 78px;
+  --text-xl_title: 58px;
+  --text-lg_title: 34px;
+  --text-title: 26px;
+
+  --text-regular: 18px;
+  --text-p: 16px;
 
 
   /* ----------Break Point---------- */
   --breakpoint-xsm: 330px;
+}
+
+.footer{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
