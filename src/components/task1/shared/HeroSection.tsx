@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 
 export default function HeroSection() {
   return (
-    <section className="min-h-screen flex flex-col lg:flex-row items-center justify-between px-6 lg:px-24 py-16 bg-white relative overflow-hidden">
+    <section className="min-h-screen flex flex-col lg:flex-row items-center justify-between px-6 lg:px-24 py-16 relative overflow-hidden">
 
       <div className="flex flex-col items-center gap-4 lg:gap-6 absolute lg:relative left-4 lg:left-0 top-6 lg:top-0">
         <span className="transform -rotate-90 text-sm tracking-widest">@williamrey</span>
@@ -22,7 +22,7 @@ export default function HeroSection() {
           Your Website <span className="bg-black text-white px-2 py-1 rounded-md">Develop.</span>
         </h1>
           <div className="">
-                <p className="mt-6 text-gray-700 max-w-lg">
+                <p className="mt-6  max-w-lg">
                 Building the world's best marketing websites for over a decade.
                 <br />
                 Your trusted partner for strategy, design, and dev.
