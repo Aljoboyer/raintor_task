@@ -9,11 +9,13 @@ const Receiver = dynamic(() => import("@/components/task2/Receiver"), {
 
 export default function Home() {
   return (
-    <main style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
-      <h1>Real-Time Location Sharing</h1>
-      <Sender />
-      <Receiver />
-    </main>
+    <div className="p-4">
+      <h1 className="text-lg_title font-bold my-4">Real-Time Location Sharing</h1>
+      <div className="flex flex-col my-4">
+         <Sender />
+        <Receiver />
+      </div>
+    </div>
   );
 }
 

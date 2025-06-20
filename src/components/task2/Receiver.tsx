@@ -26,7 +26,7 @@ export default function Receiver() {
 
   return (
     <div>
-      <h2>Receiver Map</h2>
+      <h2 className="my-4 text-title font-bold">Receiver Map</h2>
       {position ? (
         <MapContainer center={position} zoom={15} style={{ height: "400px", width: "100%" }}>
           <TileLayer

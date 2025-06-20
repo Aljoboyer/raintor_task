@@ -17,5 +17,8 @@ export default function Sender() {
     return () => clearInterval(interval);
   }, [sendLocation]);
 
-  return <div>Sending live location as <b>{userName}</b></div>;
+  return <div> 
+    <p className="my-4 text-title font-bold">Sender</p>
+      <p className="text-regular">Sending live location as <b>{userName}</b></p>
+     </div>;
 }

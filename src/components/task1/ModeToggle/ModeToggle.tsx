@@ -13,7 +13,7 @@ export default function ThemeToggle() {
   if (!mounted) return null;
 
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center ml-4">
       <span>☀️</span>
       <Switch
         onChange={() => setTheme(isDark ? 'light' : 'dark')}
