@@ -23,7 +23,7 @@ export default function HeroSection() {
         </h1>
           <div className="">
                 <p className="mt-6  max-w-lg">
-                Building the world's best marketing websites for over a decade.
+                Building the worlds best marketing websites for over a decade.
                 <br />
                 Your trusted partner for strategy, design, and dev.
               </p>
